@@ -1,0 +1,153 @@
+/*
+Theme Name: Max
+Description: Max is a Multipurpose HTML Template. Its a full responsive theme built with Bootstrap.
+Version: 1.0
+Author: TheShahriyar
+Author URI: http://www.theshahriyar.com
+*/
+
+.pad-t100 {
+  padding-top: 100px;
+}
+
+.pad-b70 {
+  padding-bottom: 70px;
+}
+
+.max-tab .nav-tabs {
+  text-align: center;
+  border-bottom: none;
+}
+
+.max-tab .nav-tabs>li {
+  display: inline-block;
+  float: inherit;
+  text-align: center;
+  height: 100px;
+  margin-right: 30px;
+}
+
+.max-tab .nav-tabs>li a {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  width: 85px;
+  height: 70px;
+  padding: 0;
+  letter-spacing: 0;
+  border: none;
+  border-radius: 0;
+  text-transform: capitalize;
+  background: #f6f6f6;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.max-tab .nav-tabs>li a i {
+  font-size: 40px;
+  line-height: 64px;
+  display: block;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #222;
+  border-radius: 3px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.max-tab .nav-tabs>li a:hover,
+.max-tab .nav-tabs>li a:focus {
+  background-color: transparent;
+  border: 0;
+}
+
+.max-tab .nav-tabs>li.active a,
+.max-tab .nav-tabs>li.active a:focus,
+.max-tab .nav-tabs>li.active a:hover,
+.max-tab .nav-tabs>li:hover a,
+.max-tab .nav-tabs>li:hover a:focus,
+.max-tab .nav-tabs>li:hover a:hover {
+  background-color: #fe4157;
+  color: #fff;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.max-tab .nav-tabs>li.active i,
+.max-tab .nav-tabs>li:hover i {
+  color: #fff;
+}
+
+.max-tab .tab-content {
+  position: relative;
+}
+
+.max-tab .tab-content .tab-pane {
+  padding: 50px 0 30px;
+}
+
+.max-tab .tab-content .tab-text h4 {
+  font-size: 28px;
+  line-height: 31px;
+  margin-bottom: 30px;
+}
+
+.max-tab .tab-content .tab-text a {
+  color: #050505;
+}
+
+.max-tab .tab-content blockquote {
+  font-size: 17px;
+  margin: 0;
+  padding: 8px 20px;
+  border-left: 3px solid #32c5d2;
+}
+
+.max-tab .tab-content blockquote strong {
+  font-weight: normal;
+  color: #fe4157;
+}
+
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  padding: 50px 0 60px;
+}
+
+.counts .count-box {
+  padding: 30px 30px 25px 30px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  background: #ffffff;
+}
+
+.counts .count-box i {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #d40909;
+  padding: 12px;
+  color: #fff;
+  border-radius: 50px;
+  border: 5px solid #fff;
+}
+
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #a10505;
+}
+
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
